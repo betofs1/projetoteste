@@ -28,9 +28,10 @@ body {
 #container {
   
 border: 0px solid red ;
-width: 300px;
+max-width: 588px;
+width: 56%;
 margin:auto;
-padding: auto 56px ;
+padding: auto 58px ;
 display:block;
 text-align:center;
 text-decoration: none;

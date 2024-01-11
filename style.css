@@ -67,6 +67,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   z-index:1;
   transform:translatey(-50%);
   top: 50%;
+  animation: slide-back 0.4s ;
   
 }
 
@@ -82,8 +83,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   
 }
 .light #switch button{
-  right:0;
-  left: initial;
+ animation: slide-in 0.4s forwards;
+ 
 }
 ul {
 justify-content: center;
@@ -144,6 +145,22 @@ padding:20px;
 display:block;
 padding: 20px;
 }
+
+@keyframes slide-in {
+  from{
+    left:0;}
+    to{
+      left:50%;
+    }
+  }
+
+  @keyframes slide-back {
+  from{
+    left:50%;}
+    to{
+      left:0;
+    }
+  }
 
 
 

@@ -67,7 +67,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   z-index:1;
   transform:translatey(-50%);
   top: 50%;
-  animation: slide-back 0.4s ;
+  animation: slide-back 0.5s ;
   
 }
 
